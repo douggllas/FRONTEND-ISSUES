@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header {
+    min-width: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #383c42;
+}
+ 
+header h1 {
+    font-size: xx-large;
+    color: aliceblue;
+
+}
+
+main{
+
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top, #18acfe, #0166e1);
+    display: flex;
+    justify-content: center;
+     box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+main form {
+ margin-top:5%;
+ width: 35%;
+ height: 75vh;
+ background-color: #383c42;
+ box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+ border-radius: 18px;
+ padding: 2%;
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+main form .inputs-container {
+
+    margin-top: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .inputs-container {
+    width: 90%;
+    height: 45%;
+    padding: 8px 15px;
+    border: 100%;
+    outline: #0166e1;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #312e42;
+    box-shadow: #0166e1 #312e42 #18acfe rgba(red, green, blue, alpha);
+}
+main form .password-container {
+    width: 90%;
+    height: 45%;
+    padding: 8px 15px;
+    border: 100%;
+    outline: #0166e1;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #312e42;
+    box-shadow: #0166e1 #312e42 #18acfe rgba(red, green, blue, alpha);
+    border-radius: 12px;
+}
+ main form .password-container {
+    position: absolute;
+    right: 8%;
+    outline: invert;
+
+
+ }
+main form .imputs-container input: :focus {
+    box-shadow: inset 1px 4px 7px rgb; 
+}
