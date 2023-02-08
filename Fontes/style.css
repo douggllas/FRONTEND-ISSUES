@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: sans-serif;
+    text-align: justify;
+
+    
+}
+
+h1{
+    color: rgb(4, 109, 0);
+}
+
+#principal {
+    text-align: center;
+    background-color: gold;
+    color: rgb(79, 76, 3);
+    
+}
+
+.basico{
+    background-color: rgb(10, 92, 48);
+    color: aliceblue;
+}
+
+.intermediario
+{
+    background-color: rgb(2, 77, 2);
+    color: azure;
+}
+
+.avancado
+{
+    background-color: rgb(6, 50, 6);
+    color: azure;
+}
+
+h2{
+    color: rgb(73,109,71);
+}
+.destaque {
+    color: rgb(248, 128, 0);
+    background-color: yellow;
+}
