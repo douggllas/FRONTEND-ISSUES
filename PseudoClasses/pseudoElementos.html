@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            font-size: larger;
+            background-color: aliceblue;
+        }
+
+        a:visited{
+            color: green;
+            background-color: bisque;
+        }
+        a{
+            color:deeppink;
+            text-decoration: none;
+            
+        }
+        a:hover{
+            color:black;
+            text-decoration: underline;
+        }
+        a:active{
+            color:yellowgreen;
+        }
+        a::before
+        {
+            content: "-> ";
+        }
+        a::after{
+
+            content: "(link)";
+            text-decoration: none;
+            color: black;
+        }
+
+
+
+    </style>
+
+
+    
+</head>
+<body>
+    <ul>
+        <h1>Personalizando Links</h1>
+        <li><a href="https://www.google.com/">Github</a></li>
+        <li><a href="https://www.google.com/">Canal YT</a></li>
+        <li><a href="https://www.ibis.com/">Site CV</a></li>
+
+    </ul>
+    
+</body>
+</html>
