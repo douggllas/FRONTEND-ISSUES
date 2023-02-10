@@ -5,25 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Um Site</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+    
     <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+        
+
 
         header {
-            background-color: rgb(207, 210, 255);
+            background-color: #bdceef;
+            padding-top: 10px;
+            font-family: 'Roboto Slab', serif;    
         }
+
+        h2{
+            margin-left: 10px;
+        }   
+               
+
         header > h1{
          text-align: center;
         }
-        header > a{
-            padding: 10px;
-            background-color: rgb(177, 180, 220);
-        
+        header > nav{
+            padding: 4px;
+            background-color: #8199ca;
+            box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.231);
+            font-family: sans-serif;
         }
+            
 
-        header > a:hover{
+         
+        header > nav>a{
+            padding: 9px;
+            margin-left: 5px;
+            position: center;
+            background-color: #CFDEF7;
+            box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.231);
+            border-radius: 5px;
+        }
+         
+        header > nav a:hover{
 
             padding: 20px;
-            background-color: rgb(5, 28, 238);
             text-decoration: none;
+            
         }
         
         article>aside{
@@ -45,22 +74,43 @@
             border: 5px;
             margin: 10px;
         }
+
+        
+        p {
+            text-align: justify;
+            font-family: 'Barlow', sans-serif;
+            font-style: italic;
+            margin-left: 10px;
+            margin-right: 10px;
+           }
+        
+           main{
+            border-radius: 20px;
+           }
+
+        body {
+            color: gray;
+        }
+    
+    </style>
         
 
 
-    </style>
 
 </head>
 
 <body>
     <!--cabecario-->
     <header>
-        <h1>Um Site</h1>
-        <a href="">Pag1</a>
-        <a href="">Pag2</a>
-        <a href="">Pag3</a>
-        <a href="">Pag4</a>
-        <a href="">Pag5</a>
+        <h1>UM SITE</h1>
+        <nav>
+
+            <a href="">Pag1</a>
+            <a href="">Pag2</a>
+            <a href="">Pag3</a>
+            <a href="">Pag4</a>
+            <a href="">Pag5</a>
+        </nav>
     </header>
 
         
