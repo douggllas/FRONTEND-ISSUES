@@ -1,0 +1,31 @@
+html{
+    font-family: Lora,Georgia,Serif;
+    margin: 2em;
+    font-size: 170%;
+    line-height: 1.5;
+    background-color: #dcdcd1;
+}
+h1{
+color: #8a8a7e;
+text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.34);
+}
+.box{
+    background-color: white;
+    padding: 0.1em 1em;
+}
+
+.bilingual{
+    font-style: italic;
+   
+}
+
+.rodape{
+    
+    background-color: #bfbfb3;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.325);
+    margin-top: 5px;
+    padding: 0.1em 1em;
+    font-size: 70%;
+}
+    
+    
