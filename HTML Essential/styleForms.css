@@ -1,0 +1,32 @@
+@charset "UTF-8";
+html{
+background-color: rgb(227, 227, 255); 
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 120%;
+padding: 1em 1em;
+}
+
+form{
+
+background-color: white;
+padding: 1em 1em;
+max-width: 500px;
+margin-top: 1em;
+position: center;
+}
+
+form>input{
+    margin-top: 1em;
+}
+
+form > label{
+    color: blue;
+    box-decoration-break: slice;
+    -webkit-box-decoration-break: slice;
+}
+
+form > button{
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.177);
+    color: rgb(6, 55, 98);
+    margin-top: 2em;
+}
